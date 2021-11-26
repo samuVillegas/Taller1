@@ -1,0 +1,40 @@
+body {
+    background-color:white;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+header > h1 {
+    color: white;
+}
+
+#container{
+    margin-left: 400px;
+    margin-right: 400px;
+    height: auto;
+}
+
+.form-group{
+    position: relative;
+    margin-top: 2%;
+}
+
+.form-group > label{
+    font-size:20px;
+}
+
+.input-type1 {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+}

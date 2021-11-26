@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css" >
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema Parqueadero Geek</h1>
+    </header>
+    <div id='container'>
+        <form name='form-geek'>
+            <div class='form-group'>
+                <label for='owner_vehicule'><b>Propietario del vehiculo</b></label><br>
+                <input id='owner_vehicule' class='input-type1' placeholder="Propietario del vehiculo:" > </input>
+            </div>
+            <div class='form-group'>
+                <label for='model'><b>Modelo</b></label><br>
+                <input id='model' class='input-type1' placeholder="Modelo:" > </input>
+            </div>
+            <div class='grid1'>
+                <div class='form-group'>
+                    <label for='plate'><b>Placa</b></label><br>
+                    <input id='plate' class='input-type1' placeholder="Placa:" > </input>
+                </div>
+                <div class='form-group'>
+                    <label for='type_vehicle'><b>Tipo de vehículo</b></label><br>
+                    <input id='type_vehicle' class='input-type1' placeholder="Carro Moto"> </input>
+                </div>
+            </div>
+            <div class='grid2'>
+                <div class='form-group'>
+                    <label for='date_entry'><b>Fecha de entrada</b></label><br>
+                    <input id='date_entry' class='input-type1' type="date"></input>
+                </div>
+                <div class='form-group'>
+                    <label for='start_time'><b>Hora de inicio</b></label><br>
+                    <input id='start_time' class='input-type1' type="time"></input>
+                </div>
+                <div class='form-group'>
+                    <label for='number_hours'><b>Cantidad horas</b></label><br>
+                    <input id='number_hours' class='input-type1' placeholder="Cantidad" required></input>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
