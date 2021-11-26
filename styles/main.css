@@ -38,3 +38,24 @@ header > h1 {
     grid-template-columns: 45% 45%;
     column-gap: 10%;
 }
+
+.grid2{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+}
+
+.actions{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.button-type1{
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+    font-size: 100%;
+}
